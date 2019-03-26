@@ -4,24 +4,112 @@
 	<h1 id="aList">목록 태그</h1>
 	<ul style="list-style-type:circle">
 		<li>1주차 실습
-		<ol reversed="reversed">
+		<ol type="1"start="1">
 		   <a>
 		    <a href="http://rsef00702.github.io/index.html">
 		    <li>index.html</li>
 	   	   </a>
-		   <li>XML</li>
-		   <li value="10">SGML</li>
+		   <a>
+		    <a href="http://rsef00702.github.io/19.03.07.1/index.html(2).html">
+		    <li>index.html(2).html</li>
+	   	   </a>
+		   <a>
+		    <a href="http://rsef00702.github.io/thml5/03.13.04.html">
+		    <li>basicHtml.html</li>
+	   	   </a>
+		   <a>
+		    <a href="http://rsef00702.github.io/19.03.07.1/03.07.html">
+		    <li>html기본 예제(1).html</li>
+	   	   </a>
+		   <a>
+		    <a href="http://rsef00702.github.io/thml5/03.13.html">
+		    <li>globalAttribute.html</li>
+	   	   </a>
+		   <a>
+		    <a href="http://rsef00702.github.io/thml5/03.13.03.html">
+		    <li>bodyBasic.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.20.03.html">
+		    <li>basicHeading.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.20.04.html">
+		    <li>basicPBrHr.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.20.07.html">
+		    <li>basicChar.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.01.html">
+		    <li>basicList.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.02.html">
+		    <li>basicDList.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.03.html">
+		    <li>basicTable.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.04.html">
+		    <li>basicSpan.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.06.html">
+		    <li>advTable.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.07.html">
+		    <li>tableHw.html(1)</li>
+	   	   </a>
+
 		</ol>
 		</li>
-		<li>웹브라우저
-		  <ol type="i"start="3">
-		  <li>인터넷 익스플로러는 MS사의 제품<br/>
-		       현재 버전은 무엇일까요</li>
-		  <li>크롬</li>
-		  <li value="6">사파리</li>
-		  <li>오페라</li>
+
+		<li>과제
+		  <ol type="1"start="1">
+		   <a>
+		    <a href="http://rsef00702.github.io/19.03.07.1/03.07.html">
+		    <li>공공데이터 포털.html</li>
+	   	   </a>
+		   <a>
+		    <a href="http://rsef00702.github.io/애국가.html">
+		    <li>koreaAnthem1.html</li>
+	   	   </a>
+		   <a>
+		    <a href="http://rsef00702.github.io/thml5/03.20.02.html">
+		    <li>koreaAnthem2.html</li>
+	   	   </a>
+		   <a>
+		    <a href="http://rsef00702.github.io/thml5/03.20.02.html">
+		    <li>koreaAnthem3.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.20.05.html">
+		    <li>koreaAnthem4.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.08.html">
+		    <li>koreaAnthem5.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.09.html">
+		    <li>koreaAnthem6.html</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.10.html">
+		    <li>advTable1.html(1)</li>
+	   	   </a>
+		   <a>
+		    <a href="https://rsef00702.github.io/thml5/03.21.05.html">
+		    <li>subjectTable1.html(1)</li>
+	   	   </a>
 		  </os>
 		</li>
 	</ul></hr>
 </body>
 </html>
+
