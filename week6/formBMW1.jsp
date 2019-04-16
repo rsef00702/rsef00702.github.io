@@ -10,7 +10,11 @@
 <section>
 <h2>BMW SERIES : <%=request.getParameter("mealtime")%><br/></h2>
 <% Sreing[] uMeal = request.getParameterValues("meal");%>
-<h2>BMW Models : 
+
+<h2>BMW Models : <%=request.getParameter("mealtime")%><br/></h2>
+<% Sreing[] uMeal = request.getParameterValues("meal");%>
+
+<h2>BMW  : 
 <%
 for(int i=0; i<uMeal.length, i++){
 out.println(uMea[i]);
@@ -18,3 +22,5 @@ out.println(uMea[i]);
 %>
 </h2></section>
 </body></html>
+
+rsef00702.github.io/week6/formBMW1.jsp
