@@ -1,60 +1,61 @@
-<!doctype html><!--formSelect1.html-->
-<html><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>BMW 코리아</title></head>
+<!doctype html> <!-- BMW.html -->
+<html><head><meta charset="utf-8"/><meta name="viewport"content="width=device-width,initial-scale=1"/>
+<title>BMW 코리아</title>
+<script>
+function team(obj) {
+var name_1 = ["1 Series 5-door"];
+var name_2 = ["2 Series Active Tourer"];
+var name_3 = ["3 Series Sedan", "3 Series Touring", "3 Series Gran Turisom"];
+var name_4 = ["4 Series Coupe", "4 Series Gran Coupe", "4 Series Convertible"];
+var name_5 = ["5 Series Sedan"];
+var name_6 = ["6 Series Gran Coupe", "6 Series Gran Turismo"];
+var name_7 = ["7 Series Sedan"];
+var name_X = ["X1", "X2", "X3", "X4", "X5", "X6", "X7"];
+var name_M = ["M2 Coupe", "M3 Sedan", "M4 Coupe", "M4 Convertible", "M5 Sedan", "X5 M", "X6 M"];
+var name_i = ["i3", "i8 Coupe", "i8 Roadster"];
+
+
+var target = document.getElementById("namex");
+ if(obj.value == "1") var k = name_1;
+else if(obj.value == "2") var k = name_2;
+else if(obj.value == "3") var k = name_3;
+else if(obj.value == "4") var k = name_4;
+else if(obj.value == "5") var k = name_5;
+else if(obj.value == "6") var k = name_6;
+else if(obj.value == "7") var k = name_7;
+else if(obj.value == "X") var k = name_X;
+else if(obj.value == "M") var k = name_M;
+else if(obj.value == "i") var k = name_i;
+ 
+  target.options.length = 0;
+ 
+  for (x in k) {
+    var opt = document.createElement("option");
+    opt.value = k[x];
+    opt.innerHTML = k[x];
+    target.appendChild(opt);
+    }
+    }
+    </script>
+    
+</head>
 <body>
 <section>
 <fieldset>
-
 <legend>BMW</legend>
-	<label for="timex">SERIES</label>
-	<select id="timex" name="mealtime">
-	<option value="1 SERIES">1 SERIES</option>
-	<option value="2 SERIES">2 SERIES</option>
-	<option value="3 SERIES">3 SERIES</option>
-	<option value="4 SERIES">4 SERIES</option>
-	<option value="5 SERIES">5 SERIES</option>
-	<option value="6 SERIES">6 SERIES</option>
-	<option value="7 SERIES">7 SERIES</option>
-	<option value="X SERIES">X SERIES</option>
-	<option value="Z SERIES">Z SERIES</option>
-	<option value="M SERIES">M SERIES</option>
-	<option value="i SERIES">i SERIES</option>
-	<option value="i SERIES" selected>i SERIES</option></select>
-
-	<label for="mealx">Models</label>
-	<select id="mealx" name="meal">
-	<option value="BMW 1 Series 5-door">BMW 1 Series 5-door</option>
-	<option value="BMW 2 Series Active Tourer">BMW 2 Series Active Tourer</option>
-	<option value="BMW 3 Series Sedan">BMW 3 3 Series Sedan</option>
-	<option value="BMW 3 Series Touring Tourer">BMW 3 Series Touring</option>
-	<option value="BMW 3 Series Gran Turisom">BMW 3 Series Gran Turisom</option>
-	<option value="BMW 4 Series Coupe">BMW 4 Series Coupe</option>
-	<option value="BMW 4 Series Gran Coupe">BMW 4 Series Gran Coupe</option>
-	<option value="BMW 4 Series Convertible">BMW 4 Series Convertible</option>
-	<option value="BMW 5 Series Sedan">BMW 5 Series Sedan</option>
-	<option value="BMW 6 Series Gran Coupe">BMW 6 Series Gran Coupe</option>
-	<option value="BMW 6 Series Gran Turismo">BMW 6 Series Gran Turismo</option>
-	<option value="BMW 7 Series Sedan">BMW 7 Series Sedan</option>
-	<option value="BMW X1 Tourer">BMW X1</option>
-	<option value="BMW X2">BMW X2</option>
-	<option value="BMW X3">BMW X3</option>
-	<option value="BMW X4">BMW X4</option>
-	<option value="BMW X5">BMW X5</option>
-	<option value="BMW X6">BMW X6</option>
-	<option value="BMW X7">BMW X7</option>
-	<option value="BMW M2 Coupe">BMW M2 Coupe</option>
-	<option value="BMW M3 Sedan">BMW M3 Sedan</option>
-	<option value="BMW M4 Coupe">BMW M4 Coupe</option>
-	<option value="BMW M4 Convertible">BMW M4 Convertible</option>
-	<option value="BMW M5 Sedan">BMW M5 Sedan</option>
-	<option value="BMW X5 M">BMW X5 M</option>
-	<option value="BMW X6 M">BMW X6 M</option>
-	<option value="BMW i3">BMW i3</option>
-	<option value="BMW  i8 Coupe">BMW i8 Coupe</option>
-	<option value="BMW  i8 Roadster">BMW i8 Roadster</option>
-	<option valuel="BMW  i8 Roadster" selected>BMW  i8 Roadster</option></select>
-	<button type="submit">검색</button></fieldset></form>
-</section>
-
-<img src="BMW간지.jpg" usemap="#bmw" alt="bmw">
-</body></html>
+<label for="teamx">SERIES</label>
+<select id="teamx" Models="BMW 코리아" onchange ="team(this)">
+<option value="1"selected>1 SERIES</option>
+<option value="2">2 SERIES</option>
+<option value="3">3 SERIES</option>
+<option value="4">4 SERIES</option>
+<option value="5">5 SERIES</option>
+<option value="6">6 SERIES</option>
+<option value="7">7 SERIES</option>
+<option value="X">X SERIES</option>
+<option value="M">M SERIES</option>
+<option value="i">i SERIES</option></select>
+<label for="Models">Models</label>
+<select id="namex" Models="Models"></select>
+</fieldset></section>
+<img src="BMW간지.jpg" usemap="#bmw" alt="bmw"></body></html>
